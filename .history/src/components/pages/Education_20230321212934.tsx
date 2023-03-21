@@ -21,7 +21,7 @@ export default function EducationComponent() {
     >
 
     <div className='px-6 py-6'>
-      <Accordion data-aos="fade-up" data-aos-duration="1000" style={{
+      <Accordion data-aos="fade-up" data-aos-duration="100" style={{
         background:"#00628B",
         color:"white"
       }} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
@@ -44,7 +44,7 @@ export default function EducationComponent() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion data-aos="fade-up" data-aos-duration="1000"  style={{
+      <Accordion data-aos="fade-up" data-aos-duration="100"  style={{
         background:"#00628B",
         color:"white"
       }} expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
@@ -68,7 +68,7 @@ export default function EducationComponent() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion data-aos="fade-up" data-aos-duration="1000"  style={{
+      <Accordion data-aos="fade-up" data-aos-duration="100"  style={{
         background:"#00628B",
         color:"white"
       }} expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>

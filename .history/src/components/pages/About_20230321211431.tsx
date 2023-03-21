@@ -29,7 +29,7 @@ export default function AboutComponent() {
                         </Parallax>
                     </div>
                 </div>
-            <div className='px-10 space-y-4 py-3 text-white dark:text-gray-300'>
+            <div className='px-10 space-y-4 py-3 dark:text-gray-300'>
 
             <p>With years of experience in the industry, I have honed my skills in HTML, CSS, JavaScript, ReactJS, NextJS, Tailwind CSS, and SEO, allowing me to deliver top-notch web development solutions that meet my clients needs and exceed their expectations.</p>
             <p>As a full-stack developer, I am capable of handling projects from start to finish, and I am committed to providing end-to-end project management services to my clients. From the initial consultation to the final launch, I will work closely with you to understand your unique business needs and goals and develop a customized website solution that meets those requirements.</p>

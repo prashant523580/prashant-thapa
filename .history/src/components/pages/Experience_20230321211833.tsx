@@ -22,7 +22,7 @@ export default function ExperienceComponent() {
                                 }} />
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 data-aos="zoom-in" data-aos-duration="1000" className="font-medium title-font text-sky-400 dark:text-white mb-1 text-xl">Full Stack Developer</h2>
+                                <h2 data-aos="zoom-in" data-aos-duration="1000" className="font-medium title-font text-gray-400 dark:text-white mb-1 text-xl">Full Stack Developer</h2>
                                 <Divider />
                                 <ul className="leading-relaxed dark:text-gray-400 list-disc ml-4">
                                     <li  data-aos="fade-up" data-aos-duration="1000" >
@@ -56,7 +56,7 @@ export default function ExperienceComponent() {
                                 }} />
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 data-aos="zoom-in" data-aos-duration="1000" className="font-medium title-font text-sky-400 dark:text-white mb-1 text-xl">Ecommerce Website</h2>
+                                <h2 data-aos="zoom-in" data-aos-duration="1000" className="font-medium title-font text-gray-900 dark:text-white mb-1 text-xl">Ecommerce Website</h2>
                                 <Divider />
                                 <ul data-aos="fade-up" data-aos-duration="1000" className="leading-relaxed dark:text-gray-400 list-disc ml-4">
                                     <li data-aos="fade-up" data-aos-duration="1000">Collaborated with clients to understand their business needs and goals and developed website solutions that met those needs.</li>

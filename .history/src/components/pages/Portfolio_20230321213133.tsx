@@ -70,7 +70,7 @@ function ProductCard(props: any) {
             flexDirection: "column",
             // pt: 2,
         }}
-            data-aos="zoom-in" data-aos-duration="1000"
+            data-aos="zoom-in" data-aos-duration="100"
         >
             {/* <CardHeader
           avatar={
