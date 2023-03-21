@@ -17,10 +17,10 @@ export default function CardComponent(props: PropsTypes) {
 
     return (
        
-              <div  data-aos="fade-up" data-aos-duration="1000" className=" w-full md:w-1/2 lg:w-1/3 px-4  mx-2 rounded-md">
+              <div  data-aos="fade-up" data-aos-duration="1000" className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div
                className="
-               p-10 md:px-7 xl:px-10 border-b-8 border-sky-500 bg-white shadow-md  mb-8
+               p-10 md:px-7 xl:px-10 border-b-8 border-sky-500 bg-white shadow-md hover:shadow-lg shadow-sky-500 mb-8
                "
                >
                <div

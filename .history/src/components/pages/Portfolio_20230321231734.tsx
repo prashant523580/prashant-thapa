@@ -121,7 +121,7 @@ function ProductCard(props: any) {
     );
 }
 const CustomTabList = styled(TabList)`
-        // background-color: white;
+        background-color: white;
         border-radius: 4px;
         // background: white;
         `;
@@ -182,12 +182,13 @@ export default function PortfolioComponent(props: any) {
                
                 <Box sx={{ width: '100%', typography: 'body1' }}>
                     <TabContext value={value}>
-                        <Box sx={{ }}>
+                        <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                             {/* <TabList variant='scrollable' onChange={handleChange} aria-label="lab API tabs example" indicatorColor='secondary'> */}
-                            <CustomTabList data-aos="fade-up" data-aos-duration="1000"
+                            <CustomTabList 
                             TabIndicatorProps={{
                                 style: {
                                      backgroundColor:"var(--logo-color)",
+                                     color:"green"
                                 }
                             }}
                              variant='scrollable' onChange={handleChange} aria-label="lab API tabs example">
@@ -220,15 +221,14 @@ export default function PortfolioComponent(props: any) {
                                 }
                                 </CardContainer>
 
-                                {
-                                isLoading ? <div>
-                                    <p className='my-5 mx-auto h-5 w-6 animate-spin shadow-md shadow-sky-600 rounded-md ' ></p>
-                                </div> :
-                                    projects.length > numbOfprojects ?
-                                        <button className='text-white' data-aos="zoom-in" data-aos-duration="1000" onClick={loadMoreData}>Load more</button> :
-                                        <div>
-                                            <p className='text-white my-3'>You have seen all sites.</p>
-                                        </div>
+                            {isLoading ? <div>
+                                <p> loading... </p>
+                            </div> :
+                                projects.length > numbOfprojects ?
+                                    <Button onClick={loadMoreData}>Load more</Button> :
+                                    <div>
+                                        <p>You have seen all contents.</p>
+                                    </div>
                             }
                         </TabPanel>
                         <TabPanel value="2">
@@ -249,12 +249,12 @@ export default function PortfolioComponent(props: any) {
                                 </CardContainer>
                             {
                                 isLoading ? <div>
-                                    <p className='my-5 mx-auto h-5 w-6 animate-spin shadow-md shadow-sky-600 rounded-md ' ></p>
+                                    <p>loading...</p>
                                 </div> :
                                     websites.length > numbOfprojects ?
-                                        <button className='text-white' data-aos="zoom-in" data-aos-duration="1000" onClick={loadMoreData}>Load more</button> :
+                                        <Button onClick={loadMoreData}>Load more</Button> :
                                         <div>
-                                            <p className='text-white'>You have seen all sites.</p>
+                                            <p>You have seen all sites.</p>
                                         </div>
                             }
                         </TabPanel>

@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
   }, [])
   return (
     isLoading ?  <div className='h-[100vh] w-[100vw] flex items-center flex-col justify-center'>
-        <h1 className='text-sky-700 text-5xl'>Welcome</h1>
+        <h1 className='text-sky-700 txt-3xl'>Welcome</h1>
         <div className='w-10 h-10 rounded-full shadow-lg shadow-sky-400 animate-spin'></div>
     </div>
     :

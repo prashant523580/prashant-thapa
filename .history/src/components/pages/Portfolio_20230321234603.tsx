@@ -227,7 +227,7 @@ export default function PortfolioComponent(props: any) {
                                     projects.length > numbOfprojects ?
                                         <button className='text-white' data-aos="zoom-in" data-aos-duration="1000" onClick={loadMoreData}>Load more</button> :
                                         <div>
-                                            <p className='text-white my-3'>You have seen all sites.</p>
+                                            <p className='text-white'>You have seen all sites.</p>
                                         </div>
                             }
                         </TabPanel>

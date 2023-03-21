@@ -20,7 +20,7 @@ export default function AboutComponent() {
                     <div  data-aos="fade-up" data-aos-duration="1000" className='relative h-64 lg:h-auto md:h-auto w-80'>
                         <Parallax speed={-5}>
 
-                            <div  className='bg-black overflow-hidden shadow-xl shadow-sky-700 rounded-md  px-5 py-5 absolute left-0 lg:-left-20 md:-left-20 top-0 -translate-y-[50%]'>
+                            <div  className='bg-black overflow-hidden shadow-lg shadow-sky-700  px-5 py-5 absolute left-0 lg:-left-20 md:-left-20 top-0 -translate-y-[50%]'>
                                 <h4  data-aos="fade-up" data-aos-duration="1000"  className='text-blue-200 text-sm'>About Me</h4>
                                 <div  data-aos="fade-left" data-aos-duration="1000"  className="h-1 bg-blue-300 w-24    "></div>
                                 <h1  data-aos="fade-up" data-aos-duration="1000"  className='text-white text-xl uppercase'>Who Am I?</h1>

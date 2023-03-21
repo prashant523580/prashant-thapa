@@ -204,7 +204,7 @@ export default function ServicesComponent() {
         </div>
       </div>
       <div data-aos="fade-up" data-aos-duration="1400"  className="p-4 md:w-1/4 sm:w-1/2 w-1/2 my-2">
-        <div className="border-2 border-sky-600 shadow-lg shadow-sky-700 px-4 py-6 rounded-lg">
+        <div className="border-2 border-sky-600 shadow-md shadow-sky-700 px-4 py-6 rounded-lg">
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-sky-300 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
           </svg>

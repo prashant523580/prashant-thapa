@@ -220,15 +220,14 @@ export default function PortfolioComponent(props: any) {
                                 }
                                 </CardContainer>
 
-                                {
-                                isLoading ? <div>
-                                    <p className='my-5 mx-auto h-5 w-6 animate-spin shadow-md shadow-sky-600 rounded-md ' ></p>
-                                </div> :
-                                    projects.length > numbOfprojects ?
-                                        <button className='text-white' data-aos="zoom-in" data-aos-duration="1000" onClick={loadMoreData}>Load more</button> :
-                                        <div>
-                                            <p className='text-white my-3'>You have seen all sites.</p>
-                                        </div>
+                            {isLoading ? <div>
+                                <p> loading... </p>
+                            </div> :
+                                projects.length > numbOfprojects ?
+                                    <Button onClick={loadMoreData}>Load more</Button> :
+                                    <div>
+                                        <p>You have seen all contents.</p>
+                                    </div>
                             }
                         </TabPanel>
                         <TabPanel value="2">
@@ -249,7 +248,7 @@ export default function PortfolioComponent(props: any) {
                                 </CardContainer>
                             {
                                 isLoading ? <div>
-                                    <p className='my-5 mx-auto h-5 w-6 animate-spin shadow-md shadow-sky-600 rounded-md ' ></p>
+                                    <p className='h-5 w-6 shadow-lg shadow-sky-600 rounded-md' ></p>
                                 </div> :
                                     websites.length > numbOfprojects ?
                                         <button className='text-white' data-aos="zoom-in" data-aos-duration="1000" onClick={loadMoreData}>Load more</button> :

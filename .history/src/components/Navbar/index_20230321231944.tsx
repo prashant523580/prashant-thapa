@@ -80,7 +80,7 @@ export default class Navbar extends React.Component<{}, StateTypes>{
             <>
                 <Header />
                 <nav className={styles.nav} ref={this.navRef} style={{
-                    // position: this.state.scroll > 150 ? "fixed" : "sticky",
+                    position: this.state.scroll > 150 ? "fixed" : "sticky",
                     top: this.state.showNav ? "0" : "-135px",
                 }}>
 

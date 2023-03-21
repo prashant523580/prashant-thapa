@@ -172,14 +172,14 @@ export default function ServicesComponent() {
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
     </div> */}
     <div className="flex flex-wrap justify-center text-center ">
-      <div data-aos="fade-up" data-aos-duration="800"  className="p-4  md:w-1/4 sm:w-1/2 w-1/2  my-2">
-        <div className="border-2  border-sky-500 shadow-lg shadow-sky-400 px-4 py-6 rounded-lg">
+      <div data-aos="fade-up" data-aos-duration="1000"  className="p-4  md:w-1/4 sm:w-1/2 w-1/2  my-2">
+        <div className="border-2  border-sky-500 shadow-md shadow-sky-600 px-4 py-6 rounded-lg">
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-sky-300 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
             <path d="M8 17l4 4 4-4m-4-5v9"></path>
             <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
           </svg>
           <h2 className="title-font font-medium text-3xl text-gray-300">2</h2>
-          <p className="leading-relaxed dark:text-gray-500">Clients</p>
+          <p className="leading-relaxed dark:text-gray-500">Clints</p>
         </div>
       </div>
       <div data-aos="fade-up" data-aos-duration="1000"  className="p-4 md:w-1/4 sm:w-1/2 w-1/2 my-2">
@@ -193,7 +193,7 @@ export default function ServicesComponent() {
           <p className="leading-relaxed dark:text-gray-500">Users</p>
         </div>
       </div>
-      <div data-aos="fade-up" data-aos-duration="1200"  className="p-4 md:w-1/4 sm:w-1/2 w-1/2 my-2">
+      <div data-aos="fade-up" data-aos-duration="1000"  className="p-4 md:w-1/4 sm:w-1/2 w-1/2 my-2">
         <div className="border-2 border-sky-500 shadow-lg shadow-sky-400 px-4 py-6 rounded-lg">
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-sky-300 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
             <path d="M3 18v-6a9 9 0 0118 0v6"></path>
@@ -204,7 +204,7 @@ export default function ServicesComponent() {
         </div>
       </div>
       <div data-aos="fade-up" data-aos-duration="1400"  className="p-4 md:w-1/4 sm:w-1/2 w-1/2 my-2">
-        <div className="border-2 border-sky-600 shadow-lg shadow-sky-700 px-4 py-6 rounded-lg">
+        <div className="border-2 border-sky-500 shadow-lg shadow-sky-400 px-4 py-6 rounded-lg">
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-sky-300 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
           </svg>
