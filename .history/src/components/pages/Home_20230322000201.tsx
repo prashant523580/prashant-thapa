@@ -25,7 +25,7 @@ export default function HomeComponent() {
                     color: "var(--logo-color)",
                     fontSize: "78px",
                   }} />
-                  <h1 className='text-3xl md:text-4xl lg:6xl text-white ont-bold '>Namaste!</h1>
+                  <h1 className='text-3xl md:text-4xl lg:5xl text-white ont-bold '>Namaste!</h1>
                   <div className='h-1 bg-white w-40'></div>
                   <h2 className='text-2xl text-white'>I&apos;m</h2>
                   <h1 className='text-4xl md:text-5xl text-sky-400  lg:text-7xl  font-bold'>Prashant Thapa</h1>
