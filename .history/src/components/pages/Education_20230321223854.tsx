@@ -20,7 +20,7 @@ export default function EducationComponent() {
     title={"Education"}
     >
 
-    <div data-aos="fade-up" data-aos-duration="1000" className='px-6 py-6'>
+    <div  data-aos="fade-up" data-aos-duration="1000" className='px-6 py-6'>
       <Accordion style={{
         background:"#00628B",
         color:"white"
